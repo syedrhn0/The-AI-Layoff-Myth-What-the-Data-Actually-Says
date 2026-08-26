@@ -1,0 +1,32 @@
+# Power BI temp files
+*.pbix.bak
+*.pbix.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# MySQL dumps
+*.sql.gz
+*.dump
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data files (if re-added)
+*.csv.bak
+
+# VS Code
+.vscode/
+
+# Editor temp
+*.swp
+*.swo
+*~
