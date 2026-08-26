@@ -88,9 +88,9 @@ replaced-by-ai/
 │   └── Replaced_by_AI_Presentation.pptx  ← Project walkthrough slides
 │
 └── screenshots/
-    ├── page1_the_scale.png            ← Dashboard screenshots
-    ├── page2_the_pattern.png
-    └── page3_the_evidence.png
+    ├── page1_the_scale.jpg            ← Dashboard screenshots
+    ├── page2_the_pattern.jpg
+    └── page3_the_evidence.jpg
 ```
 
 ---
