@@ -544,11 +544,3 @@ SELECT * FROM v_size_bucket_by_era;
 
 
 
-
-
-
-
-
-
-
-
