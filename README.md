@@ -1,4 +1,4 @@
-# Replaced by AI? — A Data Investigation into Layoffs 2020–2026
+# The AI Layoff Myth - What the Data Actually Says
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)
@@ -72,25 +72,25 @@ Of 27 major Q1 2026 layoffs tracked with AI attribution data, **51.9% (14 of 27)
 ## Project Structure
 
 ```
-replaced-by-ai/
+The-AI-Layoff-Myth-What-the-Data-Actually-Says/
 │
 ├── README.md                          ← You are here
-├── Replace_by_ai.pbix                 ← Power BI dashboard file
+├── The_AI_Layoff_Myth.pbix            ← Power BI dashboard file
 │
 ├── data/
 │   ├── layoffs.csv                    ← Primary dataset (layoffs.fyi via Kaggle)
 │   └── tech_layoffs_2026_tracker.csv  ← AI attribution supplement (Kaggle)
 │
 ├── sql/
-│   └── replaced_by_ai_complete.sql    ← Full MySQL pipeline (schema + cleaning + views)
+│   └── The_AI_Layoff_Myth.sql         ← Full MySQL pipeline (schema + cleaning + views)
 │
 ├── presentation/
-│   └── Replaced_by_AI_Presentation.pptx  ← Project walkthrough slides
+│   └── The_AI_Layoff_Myth_Presentation.pptx  ← Project walkthrough slides
 │
 └── screenshots/
-    ├── page1_the_scale.jpg            ← Dashboard screenshots
-    ├── page2_the_pattern.jpg
-    └── page3_the_evidence.jpg
+    ├── page1_the_scale.png            ← Dashboard screenshots
+    ├── page2_the_pattern.png
+    └── page3_the_evidence.png
 ```
 
 ---
@@ -106,19 +106,19 @@ replaced-by-ai/
 
 ```sql
 -- Run the full SQL script in MySQL Workbench
--- File: sql/replaced_by_ai_complete.sql
+-- File: sql/The_AI_Layoff_Myth.sql
 -- This creates the database, imports data, cleans it, and builds all views
 ```
 
 1. Open MySQL Workbench
-2. Open `sql/replaced_by_ai_complete.sql`
+2. Open `sql/The_AI_Layoff_Myth.sql`
 3. Update the file path in the LOAD DATA section to match your local `data/` folder
 4. Run the script section by section (follow the section headers)
 5. Verify with the checklist in Section 10 of the SQL file
 
 ### Step 2 — Connect Power BI to MySQL
 
-1. Open `Replace_by_ai.pbix` in Power BI Desktop
+1. Open `The_AI_Layoff_Myth.pbix` in Power BI Desktop
 2. If prompted for data source credentials:
    - Home → Transform Data → Data Source Settings
    - Edit credentials → enter your MySQL username and password
@@ -183,3 +183,4 @@ Data Analytics Portfolio Project · 2026
 ---
 
 *Data sourced from layoffs.fyi (via Kaggle) and a Q1 2026 AI layoffs tracker (Kaggle). All analysis is the author's own. This project is for educational and portfolio purposes.*
+
