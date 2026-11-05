@@ -184,3 +184,6 @@ Data Analytics Portfolio Project · 2026
 
 *Data sourced from layoffs.fyi (via Kaggle) and a Q1 2026 AI layoffs tracker (Kaggle). All analysis is the author's own. This project is for educational and portfolio purposes.*
 
+
+
+ufsdgidohdo
